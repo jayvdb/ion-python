@@ -1,3 +1,4 @@
+dist: xenial
 language: python
 python:
   - "2.6"
@@ -6,6 +7,7 @@ python:
   - "3.4"
   - "3.5"
   - "3.6"
+  - "3.7"
   - "pypy"
   # https://github.com/travis-ci/travis-ci/issues/9542
   # pypy3 < 6.0.0 fails due to discrepancies with decimal...
